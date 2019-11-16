@@ -1,0 +1,176 @@
+$date
+	Sun Nov 17 00:41:34 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module rca_test $end
+$scope module uut1 $end
+$var wire 4 ! A [3:0] $end
+$var wire 4 " B [3:0] $end
+$var wire 1 # zero $end
+$var wire 4 $ sum [3:0] $end
+$var wire 1 % cout $end
+$var wire 1 & C3 $end
+$var wire 1 ' C2 $end
+$var wire 1 ( C1 $end
+$scope module adder1 $end
+$var wire 1 ) A $end
+$var wire 1 * B $end
+$var wire 1 # C $end
+$var wire 1 ( cout $end
+$var wire 1 + sum $end
+$var wire 1 , ha2_cout $end
+$var wire 1 - ha1_sum $end
+$var wire 1 . ha1_cout $end
+$scope module h1 $end
+$var wire 1 ) A $end
+$var wire 1 * B $end
+$var wire 1 . cout $end
+$var wire 1 - sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 - A $end
+$var wire 1 # B $end
+$var wire 1 , cout $end
+$var wire 1 + sum $end
+$upscope $end
+$upscope $end
+$scope module adder2 $end
+$var wire 1 / A $end
+$var wire 1 0 B $end
+$var wire 1 ( C $end
+$var wire 1 ' cout $end
+$var wire 1 1 sum $end
+$var wire 1 2 ha2_cout $end
+$var wire 1 3 ha1_sum $end
+$var wire 1 4 ha1_cout $end
+$scope module h1 $end
+$var wire 1 / A $end
+$var wire 1 0 B $end
+$var wire 1 4 cout $end
+$var wire 1 3 sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 3 A $end
+$var wire 1 ( B $end
+$var wire 1 2 cout $end
+$var wire 1 1 sum $end
+$upscope $end
+$upscope $end
+$scope module adder3 $end
+$var wire 1 5 A $end
+$var wire 1 6 B $end
+$var wire 1 ' C $end
+$var wire 1 & cout $end
+$var wire 1 7 sum $end
+$var wire 1 8 ha2_cout $end
+$var wire 1 9 ha1_sum $end
+$var wire 1 : ha1_cout $end
+$scope module h1 $end
+$var wire 1 5 A $end
+$var wire 1 6 B $end
+$var wire 1 : cout $end
+$var wire 1 9 sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 9 A $end
+$var wire 1 ' B $end
+$var wire 1 8 cout $end
+$var wire 1 7 sum $end
+$upscope $end
+$upscope $end
+$scope module adder4 $end
+$var wire 1 ; A $end
+$var wire 1 < B $end
+$var wire 1 & C $end
+$var wire 1 % cout $end
+$var wire 1 = sum $end
+$var wire 1 > ha2_cout $end
+$var wire 1 ? ha1_sum $end
+$var wire 1 @ ha1_cout $end
+$scope module h1 $end
+$var wire 1 ; A $end
+$var wire 1 < B $end
+$var wire 1 @ cout $end
+$var wire 1 ? sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 ? A $end
+$var wire 1 & B $end
+$var wire 1 > cout $end
+$var wire 1 = sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+b0 $
+0#
+b0 "
+b0 !
+$end
+#10
+b1 $
+1+
+1-
+1)
+b1 !
+#20
+11
+b10 $
+0+
+1(
+0-
+1.
+1*
+b1 "
+#30
+01
+17
+b101 $
+1+
+0(
+1'
+1-
+0.
+14
+0*
+10
+1/
+b10 "
+b11 !
+#40
